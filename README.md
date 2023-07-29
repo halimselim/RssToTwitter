@@ -8,4 +8,4 @@ Do not worry it will run headless.\
 \
 Sample code reads BBC News feed then posts the news title with the link.\
 \
-You can use crontab to run this example every n minutes.\
+You can use crontab to run this example every n minutes.
