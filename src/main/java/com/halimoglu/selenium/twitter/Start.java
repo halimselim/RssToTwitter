@@ -128,6 +128,9 @@ public class Start {
             p.load(
                     Files.newInputStream(pf.toPath())
             );
+            
+            username = p.getProperty("username");
+            password = p.getProperty("password");
 
             return Long.parseLong(p.getProperty("last_news"));
         } catch (IOException ex) {
