@@ -9,7 +9,7 @@ Do not worry it will run headless.\
 Sample code reads BBC News feed then posts the news title with the link.\
 Last published article's date is saved to prevent double posts.
 \
-You can use crontab to run this example every n minutes.\
+You can use crontab to run this example every n minutes.
 
 # To Do
 Some css & xpath selectors use Turkish keywords, these selector expressions could be read from properties file for other languages
