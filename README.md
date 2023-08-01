@@ -14,4 +14,4 @@ Last published article's date is saved to prevent double posts.
 You can use crontab to run this example every n minutes.
 
 # To Do
-Some css & xpath selectors use Turkish keywords, these selector expressions could be read from properties file for other languages
+Default css & xpath selectors use Turkish keywords, these selector expressions could be read from properties file for other languages
