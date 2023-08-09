@@ -166,7 +166,7 @@ public class BBC_RSS {
         By selector_next = By.xpath("//*[ text() = 'Next' ]");
         By selector_password = By.cssSelector("input[name=password]");
         By selector_tweet = By.cssSelector("div[data-contents=true]");
-        By selector_send = By.xpath("//*[ text() = 'Gönderi' ]");
+        By selector_send = By.xpath("//*[ text() = 'Gönder' ]");
 
         if (browser_init == false) {
 
