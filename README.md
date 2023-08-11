@@ -15,3 +15,17 @@ You can use crontab to run this example every n minutes.
 
 # To Do
 Default css & xpath selectors use Turkish keywords, these selector expressions could be read from properties file for other languages
+This issue is solved in dockerized version as environmental variables
+
+
+# Changelog
+2023-08-12 Added API feature
+Send tweets by posting to http://host:4570/tweet
+```json
+{
+    "user":"twitter-username",
+    "pass":"twitter-password",
+    "text":"tweet-content"
+}
+```
+Dockerized version -> https://hub.docker.com/r/yahuuu/apitoxweb
