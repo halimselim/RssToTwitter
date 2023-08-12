@@ -24,6 +24,7 @@ Added API feature \
 Run ApiToXweb class for API version \
 Run BBC_RSS class for RSS version \
 Send tweets by posting to http://host:4570/tweet
+2FA must be disabled for twitter account
 ```json
 {
     "user":"twitter-username",
